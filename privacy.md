@@ -47,7 +47,7 @@ This privacy policy may be updated occasionally. The latest version is always av
 
 ## 8. Contact
 
-Contact **.schorsch** on Discord or join our support server at [discord.gg/YpbWs3sQ](https://discord.gg/YpbWs3sQ).
+Contact contact@radiomap.world or join our support server at [discord.gg/YpbWs3sQ](https://discord.gg/YpbWs3sQ).
 
 ---
 
