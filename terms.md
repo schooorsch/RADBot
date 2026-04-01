@@ -43,7 +43,7 @@ These terms may be updated occasionally. The latest version is always available 
 
 ## 9. Contact
 
-For support or questions, contact **.schorsch** on Discord or join our support server at [discord.gg/YpbWs3sQ](https://discord.gg/YpbWs3sQ).
+For support or questions, contact@radiomap.world or join our support server at [discord.gg/YpbWs3sQ](https://discord.gg/YpbWs3sQ).
 
 ---
 
