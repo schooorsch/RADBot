@@ -13,38 +13,55 @@
 </head>
 <body>
     <h1>RADBot – Privacy Policy</h1>
-    <p>Last updated: March 2026</p>
+    <p>Last updated: April 2026</p>
 
     <h2>1. Data Collection</h2>
-    <p>RADBot does not collect, store or share any personal data. No user information is logged or retained beyond the current session. All in-memory data (play, volume, current station) is reset when the bot restarts.</p>
+    <p>RADBot does not collect, store, or share any personal data. No user information is logged, retained, or processed beyond what is strictly necessary for the bot to function during an active session.</p>
+    <p>Discord User IDs are considered personal data under GDPR (Art. 4). RADBot does not store, log, or process Discord User IDs beyond the duration of a single interaction.</p>
 
     <h2>2. Voice & Text Channels</h2>
-    <p>RADBot only reads slash commands directed at it. It does not read, store or process any other messages or voice data.</p>
+    <p>RADBot only reads slash commands directed at it. It does not read, store, or process any other messages, voice data, or user content.</p>
 
-    <h2>3. Third Party Services</h2>
-    <p>RADBot streams audio from publicly available radio stations and uses the <a href="https://www.radio-browser.info" target="_blank">Radio Browser API</a> to search for stations. We are not responsible for the content or availability of third party streams. Radio Browser does not receive any personal user data from RADBot.</p>
-
-    <h2>4. Server Data</h2>
-    <p>RADBot temporarily stores the following data in memory for the duration of a session only:</p>
+    <h2>3. In-Memory Session Data</h2>
+    <p>RADBot temporarily holds the following data in memory solely to enable audio playback. This data is never written to disk and is permanently deleted when the bot restarts or leaves a server:</p>
     <ul>
-        <li>Guild ID and voice channel ID (required for audio playback)</li>
+        <li>Guild ID and voice channel ID (required to maintain the audio connection)</li>
         <li>Currently playing station per server</li>
         <li>Volume setting per server</li>
-        <li>Play history per server (last 10 stations, in-memory only)</li>
+        <li>Pause/resume state per server</li>
     </ul>
-    <p>None of this data is written to disk or shared with third parties.</p>
+    <p>No user-identifiable information is stored at any point.</p>
 
-    <h2>5. Logging</h2>
-    <p>RADBot logs technical events (errors, stream health checks, dead streams) to local log files on the host server for debugging purposes only. These logs do not contain any user-identifiable information.</p>
+    <h2>4. Legal Basis</h2>
+    <p>The temporary processing of guild and channel IDs is based on legitimate interest (GDPR Art. 6 para. 1 lit. f) to provide the requested radio streaming functionality. No data is retained after the session ends.</p>
 
-    <h2>6. Children's Privacy</h2>
-    <p>RADBot does not knowingly collect any data from users under the age of 13. As RADBot collects no personal data at all, it is safe for use in any Discord server that complies with Discord's own Terms of Service.</p>
+    <h2>5. Third Party Services</h2>
+    <p>RADBot streams audio from publicly available radio stations and uses the <a href="https://www.radio-browser.info" target="_blank">Radio Browser API</a> to search for stations. We are not responsible for the content or availability of third party streams. The Radio Browser API does not receive any personal user data from RADBot.</p>
+    <p>RADBot is listed on the following third party bot directories:</p>
+    <ul>
+        <li><a href="https://top.gg" target="_blank">top.gg</a></li>
+        <li><a href="https://discord.bots.gg" target="_blank">discord.bots.gg</a></li>
+        <li><a href="https://discordbotlist.com" target="_blank">discordbotlist.com</a></li>
+    </ul>
+    <p>These services may collect data independently. Please refer to their respective privacy policies.</p>
 
-    <h2>7. Changes to This Policy</h2>
+    <h2>6. Logging</h2>
+    <p>RADBot logs technical events (errors, stream health checks) to local log files on the host server for debugging purposes only. These logs do not contain any user-identifiable information such as User IDs, usernames, or message content.</p>
+
+    <h2>7. Data Retention</h2>
+    <p>RADBot retains no personal data. All session data is held exclusively in memory and is permanently deleted upon bot restart. No databases, files, or external services are used to store user data.</p>
+
+    <h2>8. Your Rights (GDPR)</h2>
+    <p>As RADBot stores no personal data, the rights to access, rectification, erasure, and portability (GDPR Art. 15-20) are satisfied by default. If you have any concerns, please contact us directly.</p>
+
+    <h2>9. Children's Privacy</h2>
+    <p>RADBot does not knowingly collect data from users under the age of 13. As RADBot collects no personal data at all, it is safe for use in any Discord server that complies with Discord's own Terms of Service.</p>
+
+    <h2>10. Changes to This Policy</h2>
     <p>This privacy policy may be updated occasionally. The latest version is always available at this URL. Continued use of RADBot after changes constitutes acceptance of the updated policy.</p>
 
-    <h2>8. Contact</h2>
-    <p>For any privacy concerns, contact <strong>.schorsch</strong> on Discord.</p>
+    <h2>11. Contact</h2>
+    <p>For any privacy concerns, contact <strong>.schorsch</strong> on Discord or join our support server at <a href="https://discord.gg/YpbWs3sQ">discord.gg/YpbWs3sQ</a>.</p>
 
     <footer>
         <p>RADBot &bull; <a href="https://schooorsch.github.io/RADBot/terms.html">Terms of Service</a></p>
