@@ -33,8 +33,6 @@ Search Examples
 Invite
 [Add RADBot to your server](https://discord.com/oauth2/authorize?client_id=1482084909907447959&permissions=2150713344&integration_type=0&scope=bot+applications.commands)
 
-Support
-Discord: **.schorsch**
 
 Links
 - [Terms of Service](https://schooorsch.github.io/RADBot/terms.html)
